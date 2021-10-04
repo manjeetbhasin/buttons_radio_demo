@@ -1,5 +1,7 @@
 import 'package:buttons_radio_demo/button_demo.dart';
+import 'package:buttons_radio_demo/flutterdemohomepage.dart';
 import 'package:buttons_radio_demo/groupedbutton_demo.dart';
+import 'package:buttons_radio_demo/menubutton.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -17,7 +19,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       debugShowCheckedModeBanner: false,
-      home: GroupedButton(),
+      home: ButtonDemo(),
     );
   }
 }
